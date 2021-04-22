@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "latobold";
+    src: url("../font/Lato-Bold.ttf");
+}
+@font-face {
+    font-family: "latoregular";
+    src: url("../font/Lato-Regular.ttf");
+}
+
+body {
+    font-family: 'latoregular';
+}
+h1 {
+    font-family: "latobold";
+    color: #222222;
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+}
+h2 {
+    font-family: "latobold";
+    color: #222222;
+}
+h3 {
+    font-family: "latobold";
+    color: #222222;
+    padding-bottom: 20px;
+}
+p {
+    font-family: "latoregular";
+    color: #444444;
+    font-size: 20px;
+}
+/*------------------------------------------------HEADER----------------------------------------*/
+header{
+    display:flex;
+    justify-content: space-between;
+}
+.container{
+    padding: 25px;
+}
+.container p{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.button{
+    background-color: #0AA8A7;
+    padding: 20px 35px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+}
+.image{
+    max-width: 100%;
+    margin-top: 40px;
+}
+.picto{
+    width: 30px;
+    margin: 20px auto;
+    display: block;
+}
+.green{
+    background-color: #EDF6F5;
+}
+div{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.center{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.service p{
+    text-align: left;
+    padding-top: 20px;
+}
+.service a{
+    color: #0AA8A7;
+    text-decoration: none;
+}
+.ready{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+.ready h2, .ready p{
+    margin: 20px 0;
+}
+.menu{
+    height: 25px;
+}
+.container-footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: transparent;
+    margin-top: 70px;
+}
+.container-footer div{
+    width: 50%;
+    text-align: left;
+    background-color: transparent;
+}
+li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.container-footer div li h2{
+    margin-bottom: 20px;
+}
+.social{
+    width: 30px;
+}
+.container-social{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 80%;
+}
+footer .center{
+    margin-bottom: 0;
+}
